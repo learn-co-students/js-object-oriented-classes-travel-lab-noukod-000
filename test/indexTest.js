@@ -26,7 +26,6 @@ describe('driver', function() {
 
 describe('Route', function() {
   let route;
-
   describe('blocksTravelled', function() {
     it('calculates the number of blocksTravelled', function() {
       let route = new Route({horizontal: 'Park', vertical: '34'}, {horizontal: 'Park', vertical: '45'})
